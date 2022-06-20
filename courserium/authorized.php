@@ -22,7 +22,7 @@ if($_SESSION['user_status'] < 1 or $_SESSION['user_status'] == 3)
 <body>
 <header class="header">
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#252424">
-    <a class="navbar-brand" href="#"><h3 style="margin-top: 6px">Курсериум</h3></a>
+    <a class="navbar-brand" href="authorized.php"><h3 style="margin-top: 6px">Курсериум</h3></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -75,53 +75,63 @@ if($_SESSION['user_status'] < 1 or $_SESSION['user_status'] == 3)
     </div>
     <section>
 <div class="container">
-  <div class="card" type="button" a href="#" style="background-color: #252424; width: 980px; height: 133px; left: -182px; top: -218px">
+  <a class="button" type="button" href="authpagepy.php" role="button"><div class="card" role="button" type="button" style="background-color: #252424; width: 980px; height: 133px; left: -182px; top: -218px">
     <img src="img/1547023319_2000px-Python-logo-notext.svg.png" class="card-img" alt="Python"
          style="width: 65px;height: 65px; margin-left:20px ; margin-top: 31px">
     <div class ="card-img-overlay col-md-9 offset-md-1" style="top: 29px">
-      <h3 class="card-title" style="color: #fff">Основы программирования на Python</h3>
+        <h3 class="card-title" style="color: #fff">Основы программирования на Python</h3>
     </div>
-  </div>
+</div>
+  </a>
+</div>
     </section>
     <section>
     <div class="container">
-      <div class="card" type="button" a href="#" style="background-color: #252424; width: 980px; height: 133px; left: -182px; top: -203px">
+        <a class="button" type="button" href="authpagephp.php" role="button"><div class="card" type="button" role="button" style="background-color: #252424; width: 980px; height: 133px; left: -182px; top: -203px">
         <img src="img/command+develop+language+php+programming+software+icon-1320165727581845211.png" class="card-img" alt="PHP"
              style="width: 85px;height: 85px; margin-left:10px ; margin-top: 23px">
         <div class ="card-img-overlay col-md-9 offset-md-1" style="top: 25px">
-          <h3 class="card-title" style="color: #fff">Основы программирования на PHP</h3>
+            <h3 class="card-title" style="color: #fff">Основы программирования на PHP</h3>
         </div>
       </div>
+        </a>
+    </div>
     </section>
     <section>
         <div class="container">
-          <div class="card" type="button" a href="#" style="background-color: #252424; width: 980px; height: 133px; left: -182px; top: -188px">
+            <a class="button" type="button" href="authpageeng.php" role="button"><div class="card" type="button" role="button" style="background-color: #252424; width: 980px; height: 133px; left: -182px; top: -188px">
             <img src="img/england-152143_1280.png" class="card-img" alt="LangLes"
                  style="width: 80px;height: 60px; margin-left: 11px; margin-top: 34px">
             <div class ="card-img-overlay col-md-9 offset-md-1" style="top: 25px">
-              <h3 class="card-title" style="color: #fff">Курсы английского</h3>
+               <h3 class="card-title" style="color: #fff">Курсы английского</h3>
             </div>
           </div>
+            </a>
+        </div>
     </section>
     <section>
             <div class="container">
-              <div class="card" type="button" a href="#" style="background-color: #252424; width: 980px; height: 133px; left: -182px; top: -173px">
+                <a class="button" type="button" href="authpagemark.php" role="button"><div class="card" type="button" role="button" style="background-color: #252424; width: 980px; height: 133px; left: -182px; top: -173px">
                 <img src="img/affiliate-marketing.png" class="card-img" alt="mark"
                      style="width: 67px;height: 67px; margin-left: 18px; margin-top: 28px">
                 <div class ="card-img-overlay col-md-9 offset-md-1" style="top: 25px">
-                  <h3 class="card-title" style="color: #fff">Основы интернет-маркетинга</h3>
+                    <h3 class="card-title" style="color: #fff">Основы интернет-маркетинга</h3>
                 </div>
               </div>
+                </a>
+            </div>
     </section>
     <section>
                 <div class="container">
-                  <div class="card" type="button" a href="#" style="background-color: #252424; width: 980px; height: 133px; left: -182px; top: -158px">
+                    <a class="button" type="button" href="authpagemark.php" role="button"><div class="card" type="button" role="button" style="background-color: #252424; width: 980px; height: 133px; left: -182px; top: -158px">
                     <img src="img/права.png" class="card-img" alt="prava"
                          style="width: 185px;height: 185px; margin-left: -35px; margin-top: -25px">
                     <div class ="card-img-overlay col-md-9 offset-md-1" style="top: 25px">
-                      <h3 class="card-title" style="color: #fff">Вводный курс по правам человека</h3>
+                        <h3 class="card-title" style="color: #fff">Вводный курс по правам человека</h3>
                     </div>
-                  </div>
+                        </div>
+                    </a>
+                </div>
     </section>
     <section>
     <header class="info">

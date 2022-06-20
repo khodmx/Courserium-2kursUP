@@ -1,6 +1,6 @@
 <?php
 require "db.php";
-require "ldb.php";
+require "ban.php";
 class modrig extends ldb
 {
 function updadm()
